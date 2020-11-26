@@ -7,7 +7,7 @@
     - x - stands for execute, assigned a value of 1
 
 # A standard linux file permission looks like this:
-    - rwx - in this instance the rwx bits are set to on, so the octal value of this filer permission would be 7.  This is derived from simply tallying up r+w+x with the cumulative total of 7.  
+    - rwx - in this instance the rwx bits are set to on, so the octal value of this file permission would be 7.  This is derived from simply tallying up r+w+x with the cumulative total of 7.  
 
 # Another example may be when a bit is in the off permission.  For intance, a '-' character is a 0 value and is not added to the cumulative permission total.
     - r-x  in this instance the cumulative total would translate to 5, because 
